@@ -12,3 +12,5 @@ connect.connect((error) => {
     console.log("Successfully connected to employees_db!");
 
 });
+
+module.exports = connect;
