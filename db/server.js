@@ -3,12 +3,12 @@ const mysql = require("mysql2");
 const connect = mysql.createConnection({
     host: "127.0.0.1",
     user: "root",
-    password: "",
+    password: "Beans",
     database: "employees_db",
 });
 
-connect.connect((error) => {
-    if (error) throw error;
+connect.connect((err) => {
+    if (err) throw err;
     console.log("Successfully connected to employees_db!");
 
 });
