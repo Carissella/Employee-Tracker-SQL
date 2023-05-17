@@ -43,6 +43,7 @@ function userPrompts() {
             break;
         case "Update An Employee Role?":
             updateEmployeeRole();
+            break;
         case "Exit?":
             connection.end();
             break;
